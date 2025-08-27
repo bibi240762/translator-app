@@ -4,7 +4,7 @@ document.getElementById('translateBtn').addEventListener('click', function() {
     document.getElementById('outputText').value = translatedText;
 });
 
-function simpleTranslate(text) {
+function Translate (text) {
     // This is a very simple, hard-coded translation function
     // For a real app, you would use a translation API
     const translations = {
