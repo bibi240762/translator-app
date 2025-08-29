@@ -1,49 +1,71 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f0e4ff, #e4f9ff);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    color: #4a4a4a;
 }
 
 .container {
     background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
     width: 90%;
-    max-width: 600px;
+    max-width: 550px;
     text-align: center;
+    border: 2px solid #e0e0e0;
 }
 
 h1 {
-    color: #333;
+    color: #6a1b9a;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h1 .fas {
+    color: #f7b731;
+    margin-right: 10px;
 }
 
 textarea {
     width: 100%;
-    height: 150px;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    height: 120px;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
     resize: none;
     box-sizing: border-box;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+}
+
+textarea:focus {
+    border-color: #6a1b9a;
+    box-shadow: 0 0 8px rgba(106, 27, 154, 0.2);
+    outline: none;
 }
 
 #translateBtn {
-    background-color: #f48ab2;
+    background-color: #ff6b6b;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 25px;
     border: none;
-    border-radius: 4px;
+    border-radius: 25px;
     cursor: pointer;
-    font-size: 16px;
-    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 15px;
+    box-shadow: 0 4px 10px rgba(255, 107, 107, 0.4);
+    transition: all 0.3s ease;
 }
 
 #translateBtn:hover {
-    background-color: #f48ab2;
+    background-color: #e55a5a;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(255, 107, 107, 0.5);
 }
