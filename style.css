@@ -21,7 +21,7 @@ body {
 }
 
 h1 {
-    color: #6a1b9a;
+    color: #ff97f3;
     font-size: 2.5em;
     margin-bottom: 20px;
 }
@@ -52,7 +52,7 @@ textarea:focus {
 
 #translateBtn {
     background-color: #ff6b6b;
-    color: white;
+    color: rgb(255, 221, 252);
     padding: 12px 25px;
     border: none;
     border-radius: 25px;
